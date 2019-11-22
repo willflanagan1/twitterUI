@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>COMP426 Twitter Feed</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.css" />
+    <link href="https://fonts.googleapis.com/css?family=Nova+Square&display=swap" rel="stylesheet">
+</head>
+
+<body id="root">
+    <section class="hero is-info is-small" id="hero">
+        <div class="hero-head">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-brand">
+                        <a class="navbar-item">
+                            <img src="/images/twitter_logo.png" alt="Logo">
+                        </a>
+                        <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                    <div id="navbarMenuHeroA" class="navbar-menu">
+                        <div class="navbar-end" style="font-size: 18px;">
+                            <a class="navbar-item" href="index.html">
+                                Feed
+                            </a>
+                            <a class="navbar-item is-active" href="profile.html">
+                                Profile
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title" style="font-size: 35px;">
+                    Comp 426 Twitter
+                </h1>
+            </div>
+        </div>
+    </section>
+    </div>
+    <div class="container" id="page">
+        Profile
+        <i class="fab fa-twitter"></i>
+    </div>
+    <div class="container" id="tweets-container">
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="profilescript.js"></script>
+</body>
+
+</html>

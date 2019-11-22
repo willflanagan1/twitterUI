@@ -1,0 +1,225 @@
+body {
+    background-color: white;
+}
+
+#hero {
+    font-family: 'Nova Square', cursive;
+}
+
+#tweets-container {
+    white-space: pre-line;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d1d0d0c9;
+    border-top: none;
+}
+
+.aTweet {
+    border-style:solid;
+    border-color: #d1d0d0c9;
+    border-width: 1px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    padding: 3px;
+    background-color: white;
+    height: 100%;
+    color:black;
+}
+.aTweet:hover{
+    background-color: rgba(186, 193, 201, 0.164);
+}
+
+.tweet-body {
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+
+#page {
+    margin-left: 200px;
+    margin-right: 200px;
+    border-style:solid;
+    border-width: 1px;
+    border-color: #d1d0d0c9;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#new-tweet {
+    outline:0px none transparent;
+    resize: none;
+    font-size: 20px;
+    border-style: none;
+    box-shadow: none;
+    margin-top: 9px;
+    margin-left: 18px;
+    width: 96%;
+    overflow: hidden;
+}
+
+#the-count {
+    float: right;
+    margin-right: 7px;
+}
+
+.field.is-grouped {
+    margin-left: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#post-container {
+    outline: none;
+    border-style: solid;
+    border-color: #d1d0d0c9;
+    border-width: 1px;
+    border-top: none;
+    margin-bottom: -24px;
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-bottom-width: 8px;
+    box-shadow: inset 0 0 0.15rem #d1d0d0c9;
+}
+
+#post-button {
+    font-weight: bold;
+}
+
+hr {
+    margin: 0px;
+    width: 98%;
+    margin-left: 10px;
+}
+
+.button.is-small {
+    border: none !important;
+    background-color: transparent;
+    margin-bottom: 5px;
+    margin-right: 18px;
+    margin-top: 4px;
+}
+
+.edit-button {
+    float: right;
+    margin-right: 60px !important;
+}
+
+.far.fa-edit {
+    margin-right: 5px;
+}
+
+.edit-button:hover {
+    color: rgb(32, 156, 238);
+}
+
+.delete-button {
+    float: right;
+    margin-right: 70px !important;
+}
+
+.fa.fa-trash {
+    margin-right: 5px;
+}
+
+.delete-button:hover {
+    color: #FF9933;
+}
+
+.like-button:hover {
+    color: rgba(255, 0, 0, 0.527);
+}
+
+.rt-button:hover {
+    color: rgb(44, 143, 35);
+}
+.reply-button:hover {
+    color: rgb(32, 156, 238);
+}
+
+i {
+    font-size: 18px;
+    margin: 2px;
+}
+
+.icon-number {
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 3px;
+    margin-top: 1px;
+}
+
+.icon-text {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.author {
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-bottom: 2px;
+}
+
+.tweet-body {
+    margin-left: 40px;
+}
+
+.button-container {
+    margin-top: 5px;
+    margin-left: 40px;
+
+}
+
+#edit-buttons {
+    margin-top: -80px;
+}
+
+#edit-form {
+    margin-top: -30px;
+}
+
+#reply-container {
+    margin-left: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: rgb(32, 156, 238);
+}
+
+#reply-form {
+    margin-top: -30px;
+    margin-right: 15px;
+}
+
+#reply-form-buttons {
+    margin-top: -80px;
+    margin-left: 0px;
+}
+
+.parent-container {
+    border-style: solid;
+    border-color: rgba(209, 208, 208, 0.507);
+    border-radius: 5px;
+    border-width: 1px;
+    padding-left: 7px;
+    line-height: 20px;
+    margin-top: 5px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    background-color:white;
+    width: 92%;
+    margin-left: 40px;
+}
+
+.parent-container:hover{
+    background-color: rgba(186, 193, 201, 0.171);
+}
+
+#buttons-post {
+    margin-top: 20px !important;
+}
